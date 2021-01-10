@@ -1,12 +1,10 @@
 // base
-@import 'base/_reset';
+@import 'base/reset';
 // utils
-
 // components
-
+@import 'components/header';
 // layout
-
+@import 'layout/main';
 // pages
 
 // vendors
-@import 'layout/main';

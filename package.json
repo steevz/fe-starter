@@ -5,6 +5,14 @@
   "repository": "https://github.com/steevz/fe-starter.git",
   "author": "steevz <stevocvijetic96@gmail.com>",
   "license": "MIT",
+  "staticFiles": {
+    "staticPath": [
+      {
+        "staticPath": "src/static",
+        "watcherGlob": "**"
+      }
+    ]
+  },
   "scripts": {
     "clean": "rimraf ./dist",
     "watch": "parcel watch src/index.html",
@@ -15,6 +23,9 @@
     "@babel/core": "^7.12.10",
     "@babel/preset-env": "^7.12.11",
     "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.5.0",
+    "posthtml-expressions": "^1.7.1",
+    "posthtml-include": "^1.6.0",
     "sass": "^1.32.0"
   }
 }
